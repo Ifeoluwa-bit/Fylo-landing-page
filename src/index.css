@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Orbitron:regular,500,600,700,800,900);
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito' sans-serif;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+
+.productive{
+  clip-path: ellipse(102% 70% at 51% 79%);
+}
+
+.icon{
+  font-size: 2rem;
+  border-radius: 100%;
+}
+
+@media screen and (max-width: 680px){
+  .productive{
+    clip-path: ellipse(110% 77% at 51% 79%);
+  }
+}
+
